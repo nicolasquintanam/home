@@ -16,9 +16,6 @@
 - [Sharing 💗](#sharing-)
 - [Prerequisites 🍪](#prerequisites-)
 - [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Contributing 🙌](#contributing-)
-- [Issues](#issues)
-- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
 
 ## Technology Stack 🛠️
 
@@ -113,5 +110,3 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
     - Take a screenshot of your version and rename it "social-image.png" and place it there.
 
 Next time if you make changes, repeat from step 8.
-
-Facing issues? Feel free to contact at hashirshoaeb@gmail.com.
