@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Typist from 'react-typist-component';
+import Typist from "react-typist-component";
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
@@ -21,9 +21,7 @@ const MainBody = React.forwardRef(
             {title}
           </h1>
           <Typist>
-            <div className="lead typist">
-              {message}
-            </div>
+            <div className="lead typist">{message}</div>
           </Typist>
           <div className="p-5">
             {icons.map((icon, index) => (
@@ -44,7 +42,7 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="Learn more about me"
           >
-            More about me
+            About me
           </a>
         </Container>
       </Jumbotron>

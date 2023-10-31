@@ -5,31 +5,23 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  gradientColors: "#ff9b11, #e74c3c, #2ecc71, #3498db, #1ad7c0, #34495e",
+  firstName: "Nicolas",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Quintana",
+  message: " Committed to technological excellence for a brighter world. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/nicolasquintanam",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/nicolasquintanam/",
     },
     {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      image: "fa-stack-overflow",
+      url: "https://stackoverflow.com/users/12531625/nicolas-quintana",
     },
   ],
 };
@@ -51,11 +43,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Hello, I'm Nicolas Quintana, a passionate Software Developer with a focus on web and mobile applications using .NET technology. I graduated in 2020 with a degree in Computer Science Engineering from the prestigious University of Santiago de Chile. My journey in the world of software engineering has been defined by my unwavering commitment to creating innovative solutions that empower businesses and enhance user experiences. I'm dedicated to turning ideas into reality, and I find my true calling in crafting robust, user-friendly applications. When I'm not coding, you'll often find me exploring the latest tech trends and constantly expanding my skill set to stay at the forefront of this ever-evolving field.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -64,7 +55,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -78,21 +69,21 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/hashirshoaeb.png"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
     },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/hashirshoaeb.png"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
-  }
+    width: "615",
+    height: "450",
+  },
 };
 
 // SKILLS SECTION
@@ -100,24 +91,26 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "C#", value: 90 },
+    { name: ".NET", value: 95 },
+    { name: "Xamarin Forms", value: 95 },
+    { name: "SQL", value: 85 },
+    { name: "PHP", value: 65 },
+    { name: "JavaScript", value: 65 },
+    { name: "HTML/CSS", value: 65 },
+    { name: "Bootstrap", value: 75 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Fast Learner", value: 95 },
+    { name: "Problem Solving", value: 95 },
+    { name: "Critical Thinker", value: 100 },
+    { name: "Team Player", value: 90 },
+    { name: "Interpersonal Skills", value: 70 },
+    { name: "Organization", value: 85 },
+    { name: "Attention to Detail", value: 95 },
+    { name: "Priorization", value: 90 },
+    { name: "Multitasking Ability", value: 90 },
+    { name: "Adaptability", value: 95 },
   ],
 };
 
@@ -126,30 +119,49 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm actively seeking full-time opportunities in the field of Software Development, with a particular focus on web and mobile application development. If you're aware of any available positions, have inquiries, or simply want to connect, please don't hesitate to reach out to me at",
+  email: "nicolasquintanam@gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: "Mobile Developer", // Here Add Company Name
+      companylogo: require("../assets/img/tapp.png"),
+      date: "Jan 2023 – Jul 2023",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: "Xamarin Developer", // Here Add Company Name
+      companylogo: require("../assets/img/progesys.png"),
+      date: "Oct 2022 – Jan 2023",
     },
-  ]
-}
+    {
+      role: "Developer Engineer",
+      companylogo: require("../assets/img/belltech.png"),
+      date: "Jul 2022 – Oct 2022",
+    },
+    {
+      role: "System Development Assistant",
+      companylogo: require("../assets/img/eme.png"),
+      date: "Apr 2018 – Jul 2022",
+    },
+  ],
+};
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export {
+  navBar,
+  mainBody,
+  about,
+  repos,
+  skills,
+  leadership,
+  getInTouch,
+  experiences,
+};
